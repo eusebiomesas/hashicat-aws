@@ -3,7 +3,7 @@ module "s3_bucket" {
 
   bucket = "my-s3-bucket"
   acl    = "private"
-  prefix = "${prefix}"
+  prefix = "eusebio-mesas"
   
   versioning = {
     enabled = true
